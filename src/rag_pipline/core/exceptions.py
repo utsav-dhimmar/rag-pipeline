@@ -12,3 +12,7 @@ class RetrievalError(Exception):
 
 class RerankingError(Exception):
     pass
+
+
+class NotSupported(Exception):
+    pass
